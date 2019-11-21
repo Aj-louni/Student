@@ -14,8 +14,9 @@
             android:ems="10"
             android:hint="First Name"
             android:inputType="textPersonName"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="99dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
             android:id="@+id/sign_up_second_name"
@@ -25,8 +26,9 @@
             android:ems="10"
             android:hint="Second Name"
             android:inputType="textPersonName"
-            app:layout_constraintTop_toBottomOf="@+id/sign_up_first_name"
-            tools:layout_editor_absoluteX="99dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sign_up_first_name" />
 
     <EditText
             android:id="@+id/sign_up_email"
@@ -36,8 +38,9 @@
             android:ems="10"
             android:hint="Email"
             android:inputType="textEmailAddress"
-            app:layout_constraintTop_toBottomOf="@+id/sign_up_second_name"
-            tools:layout_editor_absoluteX="99dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sign_up_second_name" />
 
     <EditText
             android:id="@+id/sign_up_password"
@@ -47,8 +50,9 @@
             android:ems="10"
             android:hint="Password"
             android:inputType="textPassword"
-            app:layout_constraintTop_toBottomOf="@+id/sign_up_email"
-            tools:layout_editor_absoluteX="99dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sign_up_email" />
 
     <EditText
             android:id="@+id/sign_up_password_confirmation"
@@ -58,8 +62,9 @@
             android:ems="10"
             android:hint="Password Confirmation"
             android:inputType="textPassword"
-            app:layout_constraintTop_toBottomOf="@+id/sign_up_password"
-            tools:layout_editor_absoluteX="99dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sign_up_password" />
 
     <Button
             android:id="@+id/sign_up_button"
@@ -67,6 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
             android:text="Sign Up"
-            app:layout_constraintTop_toBottomOf="@+id/sign_up_password_confirmation"
-            tools:layout_editor_absoluteX="161dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sign_up_password_confirmation" />
 </android.support.constraint.ConstraintLayout>
