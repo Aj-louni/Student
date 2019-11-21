@@ -1,4 +1,4 @@
-package com.rakanajlouni.student
+package com.rakanajlouni.student.Constants
 
 class AppInfo {
 

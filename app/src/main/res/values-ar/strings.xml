@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="PleaseWait">الرجاء الانتظار</string>
+    <string name="Email_or_password_is_incorrect">البريد الالكتروني او كلمة المرور خاطئة</string>
+    <string name="Sign_in">تسجيل الدخول</string>
+    <string name="Sign_up">انشاء حساب</string>
+</resources>

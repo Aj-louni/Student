@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Student</string>
+    <string name="app_name" translatable="false">Student</string>
+    <string name="PleaseWait">Please wait</string>
+    <string name="Email_or_password_is_incorrect">Email or password is incorrect</string>
+    <string name="Sign_up">Sign up</string>
+    <string name="Sign_in">Sign in</string>
 </resources>

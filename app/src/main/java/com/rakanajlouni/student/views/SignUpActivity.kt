@@ -1,4 +1,4 @@
-package com.rakanajlouni.student
+package com.rakanajlouni.student.views
 
 import android.app.ProgressDialog
 import android.content.Intent
@@ -9,6 +9,8 @@ import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
+import com.rakanajlouni.student.Constants.AppInfo
+import com.rakanajlouni.student.R
 import kotlinx.android.synthetic.main.activity_sign_up.*
 import java.util.regex.Pattern
 
@@ -21,7 +23,7 @@ class SignUpActivity : AppCompatActivity() {
         sign_up_button.setOnClickListener {
 
             var pd = ProgressDialog(this)
-            pd.setMessage("Please Wait...")
+            pd.setMessage(getString(R.string.PleaseWait))
             pd.setProgressStyle(ProgressDialog.STYLE_SPINNER)
             pd.show()
 
