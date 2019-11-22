@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
                 } else {
                     var rq = Volley.newRequestQueue(this)
                     var sr = object : StringRequest(
-                        Request.Method.POST, AppInfo.web + "login.php",
+                        Request.Method.POST, AppInfo.web + "signin.php",
                         Response.Listener { response ->
                             pd.hide()
 
