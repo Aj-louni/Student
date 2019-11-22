@@ -73,8 +73,8 @@ class SignUpActivity : AppCompatActivity() {
                 {
                     override fun getParams(): MutableMap<String, String> {
                         var map = HashMap<String, String>()
-                        map.put("firstname", sign_up_first_name.text.toString())
-                        map.put("lastname", sign_up_last_name.text.toString())
+                        map.put("first_name", sign_up_first_name.text.toString())
+                        map.put("last_name", sign_up_last_name.text.toString())
                         map.put("email", sign_up_email.text.toString())
                         map.put("password", sign_up_password.text.toString())
 
