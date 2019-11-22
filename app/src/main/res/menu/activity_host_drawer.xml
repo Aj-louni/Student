@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/SearchProjects"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/SearchProjects" />
+        <item
+                android:id="@+id/Uploadproject"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/Uploadproject" />
+        <item
+                android:id="@+id/PurchasedProjects"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/PurchasedProjects" />
+        <item
+                android:id="@+id/MyProjects"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/MyProjects" />
+
+        <item
+                android:id="@+id/SettingsFragment"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/SettingsFragment" />
+        <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/logout" />
+    </group>
+</menu>

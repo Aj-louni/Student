@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
                                 AppInfo.email = sign_in_email.text.toString()
 
                                 // The Intent line takes you to the HomeActivity when you press the sign in button
-                                var i = Intent(this, HomeActivity::class.java)
+                                var i = Intent(this, HostActivity::class.java)
                                 startActivity(i)
                                 finish()
                             } else

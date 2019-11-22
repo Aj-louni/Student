@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         package="com.rakanajlouni.student">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
             android:allowBackup="true"
@@ -11,7 +11,11 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".views.HomeActivity"></activity>
+        <activity
+                android:name=".views.HostActivity"
+                android:label="@string/title_activity_host"
+                android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".views.HomeActivity" />
         <activity android:name=".views.SignUpActivity" />
         <activity android:name=".views.SplashPage">
             <intent-filter>
@@ -20,9 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".views.MainActivity">
-
-        </activity>
+        <activity android:name=".views.MainActivity"></activity>
     </application>
 
 </manifest>

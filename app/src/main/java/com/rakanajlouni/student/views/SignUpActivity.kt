@@ -60,7 +60,7 @@ class SignUpActivity : AppCompatActivity() {
 
                         if (response == "1") {
                             AppInfo.email = sign_up_email.text.toString()
-                            var i = Intent(this, HomeActivity::class.java)
+                            var i = Intent(this, HostActivity::class.java)
                             startActivity(i)
                             finish()
                         }
