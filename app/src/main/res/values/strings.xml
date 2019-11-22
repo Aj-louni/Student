@@ -4,4 +4,6 @@
     <string name="Email_or_password_is_incorrect">Email or password is incorrect</string>
     <string name="Sign_up">Sign up</string>
     <string name="Sign_in">Sign in</string>
+    <string name="Searchforaproject">Search for a project</string>
+    <string name="Uploadaproject">Upload a project</string>
 </resources>
