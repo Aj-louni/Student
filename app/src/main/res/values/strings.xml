@@ -29,4 +29,11 @@
     <string name="MyProjects">My Projects</string>
     <string name="SettingsFragment">Settings</string>
     <string name="logout">Logout</string>
+    <string name="UploadProjectPictureButton">Upload Project Picture Button</string>
+    <string name="UploadProjectName">Project Name</string>
+    <string name="UploadProjectDetails">Project Details</string>
+    <string name="UploadPhoneNumber">Phone Number</string>
+    <string name="UploadProjectPrice">Project Price</string>
+    <string name="UploadProjectButton">Upload Project</string>
+    <string name="SubmitProject">Submit Project</string>
 </resources>

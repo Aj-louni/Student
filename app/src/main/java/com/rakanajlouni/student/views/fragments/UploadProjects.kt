@@ -15,7 +15,7 @@ import com.rakanajlouni.student.R
  */
 class UploadProjects : Fragment() {
 
-    val types = arrayOf("IT", "Art")
+    val types = arrayOf("Select Category","IT", "Art")
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -23,17 +23,16 @@ class UploadProjects : Fragment() {
     ): View? {
 
             var view= inflater.inflate(R.layout.fragment_upload_projects, container, false)
-            val spinner = view.findViewById<Spinner>(R.id.spinner)
+            val spinner = view.findViewById<Spinner>(R.id.upload_spinner)
             spinner?.adapter = ArrayAdapter(activity?.applicationContext, R.layout.support_simple_spinner_dropdown_item, types)
             spinner?.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
                 override fun onNothingSelected(parent: AdapterView<*>?) {
-                    println("Error")
+                    Toast.makeText(activity,"Please Enter A Category...", Toast.LENGTH_LONG).show()
                 }
 
                 override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
                     val type = parent?.getItemAtPosition(position).toString()
                     Toast.makeText(activity,type, Toast.LENGTH_LONG).show()
-                    println(type)
                 }
 
             }

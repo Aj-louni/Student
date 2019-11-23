@@ -9,6 +9,7 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+            android:id="@+id/header_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/Uploadaproject"
@@ -17,21 +18,65 @@
             android:textStyle="bold" />
 
     <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/upload_project_picture"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@mipmap/ic_launcher" />
 
     <Button
-            android:id="@+id/button3"
+            android:id="@+id/upload_project_picture_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="@string/UploadProjectPictureButton"/>
 
     <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/upload_spinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
+    <EditText
+            android:id="@+id/upload_project_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/UploadProjectName"/>
+
+    <EditText
+            android:id="@+id/upload_project_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/UploadProjectDetails" />
+
+    <EditText
+            android:id="@+id/upload_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="@string/UploadPhoneNumber"/>
+
+    <EditText
+            android:id="@+id/upload_project_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="@string/UploadProjectPrice"/>
+
+    <Button
+            android:id="@+id/upload_project_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UploadProjectButton"/>
+
+    <Button
+            android:id="@+id/submit_project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SubmitProject" />
 
 
 </LinearLayout>
