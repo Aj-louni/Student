@@ -76,7 +76,7 @@
             android:id="@+id/submit_project"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/SubmitProject" />
+            android:text="@string/SubmitProject"/>
 
 
 </LinearLayout>
