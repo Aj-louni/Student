@@ -44,8 +44,5 @@ class UploadProjects : Fragment() {
             container.removeAllViews();
         }
         return view
-
     }
-
-
 }
